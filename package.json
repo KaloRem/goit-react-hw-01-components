@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "@types/babel-traverse": "^6.25.8",
     "clsx": "^2.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -39,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/traverse": "^7.23.2"
+    "@babel/traverse": "^7.23.2",
+    "@types/babel__core": "^7.20.2"
   }
 }
