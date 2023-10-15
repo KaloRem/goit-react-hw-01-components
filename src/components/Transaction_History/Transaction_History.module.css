@@ -1,0 +1,43 @@
+.tableContainer {
+  max-width: 100%;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.transactionHistory {
+  width: 400px;
+  height: 100%;
+  border-collapse: collapse;
+  background: linear-gradient(45deg, blue, white);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.transactionHistory th,
+td {
+  width: 33.33%;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.transactionHistory th {
+  text-align: left;
+}
+
+.transactionHistory thead th {
+  background-color: #55608f;
+}
+
+.transactionHistory tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.transactionHistory tbody td {
+  position: relative;
+}
+
+.transactionHistory thead,
+.transactionHistory tbody {
+  width: 100%;
+}

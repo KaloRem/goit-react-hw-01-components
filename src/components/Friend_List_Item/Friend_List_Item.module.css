@@ -1,0 +1,37 @@
+.item {
+  min-width: 280px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  padding: 5px 10px;
+  background: linear-gradient(45deg, blue, white);
+  border-radius: 5px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.status {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.online {
+  background-color: green;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 128, 1);
+}
